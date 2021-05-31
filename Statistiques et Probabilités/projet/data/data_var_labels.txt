@@ -1,0 +1,51 @@
+Identifiant	Libellé
+matric	Matricule (identifiant client)
+depts	Département de résidence
+pvs	Point de vente
+sexeq	Sexe (qualitatif)
+ager	Age en années
+famiq	Situation familiale: Fmar Fcel Fdiv Fuli Fsep Fveu
+relat	Ancienneté de relation en mois
+pcspq	Catégorie socio-professionnelle (code num)
+quals	Code "qualité" client évalué par la banque
+GxxGxxS	plusieurs variables caractérisant les interdits bancaires
+impnbs	Nombre d'impayés en cours
+rejets	Montant total des rejets en francs
+opgnb	Nombre d'opérations par guichet dans le mois
+moyrv	Moyenne des mouvements nets créditeurs des 3 mois en Kf
+tavep	Total des avoirs épargne monétaire en francs
+endet	Taux d'endettement
+gaget	Total des engagements en francs
+gagec	Total des engagements court terme en francs
+gagem	Total des engagements moyen terme en francs
+kvunb	Nombre de comptes à vue
+qsmoy	Moyenne des soldes moyens sur 3 mois
+qcred	Moyenne des mouvements créditeurs en Kf
+dmvtp	Age du dernier mouvement (en jours)\hline
+boppn	Nombre d'opérations à M-1
+facan	Montant facturé dans l'année en francs
+lgagt	Engagement long terme
+vienb	Nombre de produits contrats vie
+viemt	Montant des produits contrats vie en francs
+uemnb	Nombre de produits épargne monétaire
+uemmts	Montant des produits d'épargne monétaire en francs
+xlgnb	Nombre de produits d'épargne logement
+xlgmt	Montant des produits d'épargne logement en francs
+ylvnb	Nombre de comptes sur livret
+ylvmt	Montant des comptes sur livret en francs
+nbelts	Nombre de produits d'épargne long terme
+mtelts	Montant des produits d'épargne long terme en francs
+nbcats	Nombre de produits épargne à terme
+mtcats	Montant des produits épargne à terme
+nbbecs	Nombre de produits bons et certificats
+mtbecs	Montant des produits bons et certificats en francs
+rocnb	Nombre de paiements par carte bancaire à M-1
+ntcas	Nombre total de cartes
+nptag	Nombre de cartes point argent
+segv2s	Segmentation version 2
+itavc	Total des avoirs sur tous les comptes
+havef	Total des avoirs épargne financière en francs
+jnbjd1s	Nombre de jours à débit à M
+jnbjd2s	Nombre de jours à débit à M-1
+jnbjd3s	Nombre de jours à débit à M-2
+carvp	Possession de la carte VISA Premier}
