@@ -2,16 +2,15 @@
 layout: default
 ---
 
-#### TP1
+### TP1 : Notion de viz
+
+### TP2
 
 
-#### TP2
+### TP3
 
 
-#### TP3
-
-
-#### Projet
+### Projet
 
 
 
