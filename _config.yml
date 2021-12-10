@@ -1,5 +1,5 @@
-title: Cours Statistiques et Sciences de Données
-description: |-
+title: Cours Statistiques
+description: |
   Armel SOUBEIGA
   Data Scientist - ML Engineer
   @mail: armel.soubeiga@yahoo.fr
@@ -8,4 +8,3 @@ google_analytics: UA-128994988-1
 theme: jekyll-theme-architect
 github:
   is_project_page: false
-author: Armel SOUBEIGA
