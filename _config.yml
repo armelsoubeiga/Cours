@@ -6,3 +6,5 @@ description: |
 show_downloads: false
 google_analytics: UA-128994988-1
 theme: jekyll-theme-architect
+github:
+  is_project_page: false
