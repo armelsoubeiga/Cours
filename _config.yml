@@ -1,5 +1,10 @@
-title: Cours Statistiques et Sciences de Données
-description: Architect is a theme for GitHub Pages.
-show_downloads: true
-google_analytics:
+title: Cours Sciences de Données
+description: |
+  Armel SOUBEIGA
+  Data Scientist - ML Engineer
+  @mail: armel.soubeiga@yahoo.fr
+show_downloads: false
+google_analytics: UA-128994988-1
 theme: jekyll-theme-architect
+github:
+  is_project_page: false
