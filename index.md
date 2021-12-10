@@ -13,7 +13,7 @@ Bienvenue sur la page de mes cours d'enseignement. J'interviens à distance et �
 - [Statistiques en BigData](url)
 
 #### Data Visualisation
-- [Visualisation des données](url)
+- [Visualisation des données](./Visualisation des donnees.html)
 
 #### Big Data
 - [Big Data](url)
