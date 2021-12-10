@@ -10,7 +10,7 @@ Bienvenue sur la page de mes cours d'enseignement. J'interviens à distance et �
 - [Statistiques et Probabilités](url)
 
 #### Statistiques et BigData 
-- [Link](url)
+- [Statistique en BigData](url)
 
 #### Data Visualisation
 - [Visualisation des données](url)
