@@ -6,18 +6,18 @@ Bienvenue sur la page de mes cours d'enseignement. J'interviens à distance et �
 
 
 #### Statistiques et Probabilités
-- [Link](url)
-- [Link](url)
+- [Théorie des Probabilités](url)
+- [Statistiques et Probabilités](url)
 
 #### Statistiques et BigData 
 - [Link](url)
 
 #### Data Visualisation
-- [Link](url)
+- [Visualisation des données](url)
 
 #### Big Data
-- [Link](url)
+- [Big Data](url)
 
 
 #### Machine Learning
-- [Link](url)
+- [APPRENTISSAGE NON-SUPERVISE](url)
