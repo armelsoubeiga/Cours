@@ -20,4 +20,4 @@ Bienvenue sur la page de mes cours d'enseignement. J'interviens Ã  distance et Ã
 
 
 #### Machine Learning
-- [APPRENTISSAGE NON-SUPERVISE](url)
+- [Apprentissage non-supervise](url)
