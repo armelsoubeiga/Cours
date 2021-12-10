@@ -1,4 +1,4 @@
-# Cours Statistiques et Sciences de Données
+Cours Statistiques et Sciences de Données
 
 
 Bienvenue sur la page de mes cours d'enseignement. J'interviens à distance et à présentielles dans les universités suivantes : UVB, UNB, UNZ, UGA, UCA
@@ -9,18 +9,14 @@ Bienvenue sur la page de mes cours d'enseignement. J'interviens à distance et �
 - [Link](url)
 
 #### Statistiques et BigData 
-
-[Link](url)
+- [Link](url)
 
 #### Data Visualisation
-
-[Link](url)
+- [Link](url)
 
 #### Big Data
-
-[Link](url)
+- [Link](url)
 
 
 #### Machine Learning
-
-[Link](url)
+- [Link](url)
