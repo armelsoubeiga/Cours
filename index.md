@@ -14,14 +14,14 @@ Bienvenue sur la page de mes cours d'enseignement. J'interviens Ã  distance et Ã
 
 #### Statistiques et BigData 
   <ul class="posts">
-    {% for post in site.categories.dataviz %}
+    {% for post in  site.categories.statsbigdata %}
       <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
     {% endfor %}
   </ul>
 
 #### Data Visualisation
   <ul class="posts">
-    {% for post in site.posts %}
+    {% for post in site.categories.dataviz %}
       <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
     {% endfor %}
   </ul>
@@ -36,7 +36,7 @@ Bienvenue sur la page de mes cours d'enseignement. J'interviens Ã  distance et Ã
 
 #### Machine Learning
   <ul class="posts">
-    {% for post in site.posts %}
+    {% for post in site.categories.ml %}
       <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
     {% endfor %}
   </ul>
