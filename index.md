@@ -6,18 +6,37 @@ Bienvenue sur la page de mes cours d'enseignement. J'interviens à distance et �
 
 
 #### Statistiques et Probabilités
-- [Théorie des Probabilités](url)
-- [Statistiques et Probabilités](url)
+  <ul class="posts">
+    {% for post in site.categories.statsprob %}
+      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+  </ul>
 
 #### Statistiques et BigData 
-- [Statistiques en BigData](url)
+  <ul class="posts">
+    {% for post in site.posts %}
+      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+  </ul>
 
 #### Data Visualisation
-- [Visualisation des données](visualisation-des-donnees.md)
+  <ul class="posts">
+    {% for post in site.posts %}
+      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+  </ul>
 
 #### Big Data
-- [Big Data](url)
+  <ul class="posts">
+    {% for post in site.posts %}
+      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+  </ul>
 
 
 #### Machine Learning
-- [Apprentissage non-supervise](url)
+  <ul class="posts">
+    {% for post in site.posts %}
+      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+  </ul>
