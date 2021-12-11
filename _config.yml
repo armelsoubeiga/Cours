@@ -1,10 +1,8 @@
-title: Overkyll
-email: your-email@domain.com
-description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-twitter_username: bertrandkeller
-github_username:  bertrandkeller
+title: Cours Statistiques et Sciences de Données
+description: > 
+  Armel SOUBEIGA - Data Scientist and ML Engineer - @mail:armel.soubeiga@yahoo.fr.
+github_username:  armelsoubeiga
 theme: jekyll-theme-architect
+github:
+  is_project_page: false
 
