@@ -1,24 +1,56 @@
 ---
 layout: post
 title:  "Visualisation des données"
-date:   2014-04-06 15:40:56
-categories: jekyll update
+date:   12/2021
 ---
 
-You'll find this post in your `_posts` directory - edit this post and re-build (or run with the `-w` switch) to see your changes!
-To add new posts, simply add a file in the `_posts` directory that follows the convention: YYYY-MM-DD-name-of-post.ext.
+*Tutoriel Tableau*
 
-Jekyll also offers powerful support for code snippets:
+1. L'objectif est d'avoir une première expérience avec Tableau et de créer des graphiques standard à l'aide d'un jeu de données simple.
+2. Téléchargez et installez [Tableau Public](https://public.tableau.com/) (Gratuit) sur votre machine
+3. Alternative (simple) à Tableau: [Polestar](http://vega.github.io/polestar/)
 
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
+*Visualisation des fleurs d'iris*
 
-Check out the [Jekyll docs][jekyll] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll's GitHub repo][jekyll-gh].
+1. Téléchargez le [`iris.csv`](data/iris.csv) et chargez-le dans Tableau; convertir les types de données (si nécessaire)
+2. Tracez un **scatterplot** avec X:sepal_length, Y:sepal_width, color:species et une ligne de tendance
+3. Enregistrez sous un onglet et enregistrez le classeur
 
-[jekyll-gh]: https://github.com/mojombo/jekyll
-[jekyll]:    http://jekyllrb.com
+*Carte des élections*
+
+1. Téléchargez le [`us-elections-history.csv`](data/us-elections-history.csv) et chargez-le dans Tableau; convertir les types de données (si nécessaire)
+2. Tracez une grille avec «Année» comme colonnes, «État» comme lignes et «État Gagnant» comme couleur/repères.
+3. Enregistrer sous un onglet
+4. Tracez une **géo-carte** avec les couleurs gagnantes en 2012 `Latitude (générée)` et `Longitude (générée)`, avec `État` comme formes et couleur `ATTR([État Gagnant])`
+5. Enregistrez sous un onglet et enregistrez le classeur
+
+Supplément
+
+*Visualisations des marchés boursiers*
+
+1. Téléchargez le [`stocks.csv`](data/stocks.csv) et chargez-le dans Tableau; convertir les types de données (si nécessaire)
+2. Tracez un **graphique à lignes multiples** au fil du temps, pour toutes les actions dans une couleur différente, regroupées par société
+3. Tracez un **histogramme groupé** (sociétés en catégories, regroupées par année ou par sociétés)
+4. **Votre propre carte**!
+5. Enregistrez sous un onglet et enregistrez le classeur
+
+*Ensemble de données mondial Superstore*
+
+1. Téléchargez le [`Global-Superstore-Orders-2016.xlsx`](data/Global-Superstore-Orders-2016.xlsx) et chargez-le dans Tableau; joindre des ensembles de données (si nécessaire)
+2. Trouvez une histoire / sélection intéressante avec cet ensemble de données
+3. Créez un tableau de bord et expliquez votre histoire/constatation
+4. BONUS: ajouter une narration (fonction Tableau)
+5. BONUS:rejoindre d'autres ensembles de données (par exemple, les personnes, ..)
+
+Lectures
+
+* Visualisation interactive des données pour le Web [Chapitre 1. Introduction
+](https://web.archive.org/web/20160307043159/http://chimera.labs.oreilly.com/books/1230000000345/ch01.html), [Chapitre 2. Présentation de D3](https://web .archive.org/web/20160307043159/http://chimera.labs.oreilly.com/books/1230000000345/ch02.html) et [Chapitre 3. Principes fondamentaux de la technologie](https://web.archive.org/web/ 20160307043159/http://chimera.labs.oreilly.com/books/1230000000345/ch03.html)
+
+* Familiarisez-vous avec [JavaScript](https://learnxinyminutes.com/docs/javascript/)
+
+* [Regard de l'intérieur sur le navigateur Web moderne](https://developers.google.com/web/updates/2018/09/inside-browser-part1)
+
+* [Apprenez à inspecter l'arborescence DOM](https://developers.google.com/web/tools/chrome-devtools/inspect-styles/edit-dom)
+
+* Exemple de solution pour SuperStore ([exemple](https://data.world/tableauhelp/superstore-data-sets))
