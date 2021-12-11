@@ -1,20 +1,23 @@
+---
+layout: default
+---
 
 Bienvenue sur la page de mes cours d'enseignement. J'interviens à distance et à présentielles dans les universités suivantes : UVB, UNB, UNZ, UGA, UCA
 
 
-### Statistiques et Probabilités
+#### Statistiques et Probabilités
 - [Théorie des Probabilités](url)
 - [Statistiques et Probabilités](url)
 
-### Statistiques et BigData 
+#### Statistiques et BigData 
 - [Statistiques en BigData](url)
 
-### Data Visualisation
+#### Data Visualisation
 - [Visualisation des données](visualisation-des-donnees.html)
 
-### Big Data
+#### Big Data
 - [Big Data](url)
 
 
-### Machine Learning
+#### Machine Learning
 - [Apprentissage non-supervise](url)

@@ -1,6 +1,5 @@
 ---
-layout: page
-permalink: /about/
+layout: default
 ---
 
 ### TP1 : Notion de viz
