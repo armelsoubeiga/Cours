@@ -58,6 +58,14 @@ Supplément
 
 ### **TP#2 :Utilisation de d3 avec R**
 
+##### *Lectures*
+
+* [Introducing R2D3](Introducing R2D3)
+
+* [Coppelia.io | D3](http://coppelia.io/category/d3-2/)
+
+* How I learned to stop templating and love R2D3, RStudio::conf 2020 JS4Shiny Workshop, by Nick Strayer Vanderbilt University [http://nickstrayer.me/js4shiny_r2d3/slides/#1](http://nickstrayer.me/js4shiny_r2d3/slides/#1)
+
 
 ### **TP#3 : Développement d’un tableau de bord avec des graphiques interactifs**
 
