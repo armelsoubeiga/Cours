@@ -58,6 +58,8 @@ Supplément
 
 ### **TP#2 :Utilisation de d3 avec R**
 
+https://www.jumpingrivers.com/blog/r-d3-intro-r2d3/
+
 ##### *Lectures*
 
 * [Introducing R2D3](Introducing R2D3)
