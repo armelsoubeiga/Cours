@@ -2,7 +2,9 @@
 layout: post
 title:  "Visualisation des données"
 date:   12/2021
-navigation_weight: 8
+output: 
+  html_document:
+    toc: true
 ---
 
 
