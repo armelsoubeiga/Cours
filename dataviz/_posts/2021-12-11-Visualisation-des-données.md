@@ -2,7 +2,11 @@
 layout: post
 title:  "Visualisation des données"
 date:   12/2021
+navigation_weight: 8
 ---
+
+
+#### **TP#1 : Notion de viz**
 
 ##### *Tutoriel visualisation utilisant l'outil Tableau*
 
@@ -48,4 +52,8 @@ Supplément
 ](https://web.archive.org/web/20160307043159/http://chimera.labs.oreilly.com/books/1230000000345/ch01.html), [Chapitre 2. Présentation de D3](https://web .archive.org/web/20160307043159/http://chimera.labs.oreilly.com/books/1230000000345/ch02.html) et [Chapitre 3. Principes fondamentaux de la technologie](https://web.archive.org/web/ 20160307043159/http://chimera.labs.oreilly.com/books/1230000000345/ch03.html)
 
 * Familiarisez-vous avec [JavaScript](https://learnxinyminutes.com/docs/javascript/)
+
+
+#### **TP#2 :Utilisation de d3 avec R**
+
 
