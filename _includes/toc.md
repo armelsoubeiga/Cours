@@ -1,4 +1,2 @@
-{{ page.excerpt }}
-
 - TOC
 {:toc}
