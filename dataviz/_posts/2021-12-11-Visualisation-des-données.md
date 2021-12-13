@@ -2,13 +2,11 @@
 layout: post
 title:  "Visualisation des données"
 date:   12/2021
-output: 
-  html_document:
-    toc: true
 ---
 
+{% include toc.md %}
 
-#### **TP#1 : Notion de viz**
+### **TP#1 : Notion de viz**
 
 ##### *Tutoriel visualisation utilisant l'outil Tableau*
 
@@ -56,6 +54,6 @@ Supplément
 * Familiarisez-vous avec [JavaScript](https://learnxinyminutes.com/docs/javascript/)
 
 
-#### **TP#2 :Utilisation de d3 avec R**
+### **TP#2 :Utilisation de d3 avec R**
 
 
