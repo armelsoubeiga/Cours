@@ -8,7 +8,7 @@ date:   12/2021
 
 <br/><br/>
 
-### <u>**TP#1 : Notion de viz**</u>
+### **TP#1 : Notion de viz**
 
 ##### *Tutoriel visualisation utilisant l'outil Tableau*
 
@@ -56,11 +56,11 @@ Supplément
 * Familiarisez-vous avec [JavaScript](https://learnxinyminutes.com/docs/javascript/)
 
 
-### <u>**TP#2 :Utilisation de d3 avec R**</u>
+### **TP#2 :Utilisation de d3 avec R**
 
 
-### <u>**TP#3 : Développement d’un tableau de bord avec des graphiques interactifs**</u>
+### **TP#3 : Développement d’un tableau de bord avec des graphiques interactifs**
 
-### <u>**Projet et examen**</u>
+### **Projet et examen**
 
 
