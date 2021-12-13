@@ -6,6 +6,8 @@ date:   12/2021
 
 {% include toc.md %}
 
+<br/><br/>
+
 ### **TP#1 : Notion de viz**
 
 ##### *Tutoriel visualisation utilisant l'outil Tableau*
@@ -55,5 +57,10 @@ Supplément
 
 
 ### **TP#2 :Utilisation de d3 avec R**
+
+
+### **TP#3 : Développement d’un tableau de bord avec des graphiques interactifs**
+
+### **Projet et examen**
 
 
