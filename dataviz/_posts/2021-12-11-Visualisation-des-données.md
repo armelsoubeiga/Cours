@@ -12,7 +12,7 @@ date:   12/2021
 
 ##### *Visualisation des fleurs d'iris*
 
-1. Téléchargez le [`iris.csv`](DataViz/data/iris.csv) et chargez-le dans Tableau; convertir les types de données (si nécessaire)
+1. Téléchargez le [`iris.csv`](./DataViz/data/iris.csv) et chargez-le dans Tableau; convertir les types de données (si nécessaire)
 2. Tracez un **scatterplot** avec X:sepal_length, Y:sepal_width, color:species et une ligne de tendance
 3. Enregistrez sous un onglet et enregistrez le classeur
 
