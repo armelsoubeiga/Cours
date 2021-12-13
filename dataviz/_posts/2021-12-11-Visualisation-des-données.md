@@ -4,19 +4,19 @@ title:  "Visualisation des données"
 date:   12/2021
 ---
 
-*Tutoriel Tableau*
+##### *Tutoriel visualisation utilisant l'outil Tableau*
 
-1. L'objectif est d'avoir une première expérience avec Tableau et de créer des graphiques standard à l'aide d'un jeu de données simple.
+1. L'objectif est de créer des graphiques standard à l'aide d'un jeu de données simple et d'avoir une première expérience avec un outil de visualisation comme le Tableau.
 2. Téléchargez et installez [Tableau Public](https://public.tableau.com/) (Gratuit) sur votre machine
 3. Alternative (simple) à Tableau: [Polestar](http://vega.github.io/polestar/)
 
-*Visualisation des fleurs d'iris*
+##### *Visualisation des fleurs d'iris*
 
-1. Téléchargez le [`iris.csv`](data/iris.csv) et chargez-le dans Tableau; convertir les types de données (si nécessaire)
+1. Téléchargez le [`iris.csv`](DataViz/data/iris.csv) et chargez-le dans Tableau; convertir les types de données (si nécessaire)
 2. Tracez un **scatterplot** avec X:sepal_length, Y:sepal_width, color:species et une ligne de tendance
 3. Enregistrez sous un onglet et enregistrez le classeur
 
-*Carte des élections*
+##### *Carte des élections*
 
 1. Téléchargez le [`us-elections-history.csv`](data/us-elections-history.csv) et chargez-le dans Tableau; convertir les types de données (si nécessaire)
 2. Tracez une grille avec «Année» comme colonnes, «État» comme lignes et «État Gagnant» comme couleur/repères.
@@ -26,7 +26,7 @@ date:   12/2021
 
 Supplément
 
-*Visualisations des marchés boursiers*
+##### *Visualisations des marchés boursiers*
 
 1. Téléchargez le [`stocks.csv`](data/stocks.csv) et chargez-le dans Tableau; convertir les types de données (si nécessaire)
 2. Tracez un **graphique à lignes multiples** au fil du temps, pour toutes les actions dans une couleur différente, regroupées par société
@@ -34,7 +34,7 @@ Supplément
 4. **Votre propre carte**!
 5. Enregistrez sous un onglet et enregistrez le classeur
 
-*Ensemble de données mondial Superstore*
+##### *Ensemble de données mondial Superstore*
 
 1. Téléchargez le [`Global-Superstore-Orders-2016.xlsx`](data/Global-Superstore-Orders-2016.xlsx) et chargez-le dans Tableau; joindre des ensembles de données (si nécessaire)
 2. Trouvez une histoire / sélection intéressante avec cet ensemble de données
