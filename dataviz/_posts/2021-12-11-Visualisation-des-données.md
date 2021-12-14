@@ -85,6 +85,37 @@ library("stringr")
 library("lubridate")
 {% endhighlight %}
 
+
+##### *Nettoyage des données dans R*
+
+Dans votre fichier .R, vous pouvez copier les étapes suivantes pour lire les données et les nettoyer en vue de notre visualisation D3. Vous pouvez télécharger les données que nous utiliserons manuellement à partir d' ici [`scoobydoo.csv`](https://github.com/rfordatascience/tidytuesday/blob/master/data/2021/2021-07-13/scoobydoo.csv) si vous préférez les lire à partir d'un fichier CSV.
+
+{% highlight ruby %}
+# => # charger les données depuis tidytuesday
+tuesdata = tidytuesdayR::tt_load(2021, week = 29)
+scoobydoo = tuesdata$scoobydoo
+                   
+ # => Nettoyage et mise en forme des données
+monsters_caught = scoobydoo %>%
+  select(date_aired, starts_with("caught")) %>%
+  mutate(across(starts_with("caught"), ~ as.logical(.))) %>%
+  pivot_longer(cols = caught_fred:caught_not,
+               names_to = "character",
+               values_to = "monsters_caught") %>%
+  drop_na()  %>%
+  filter(!(character %in% c("caught_not", "caught_other"))) %>%
+  mutate(year = year(date_aired), .keep = "unused") %>%
+  group_by(character, year) %>%
+  summarise(caught = sum(monsters_caught),
+            .groups = "drop_last") %>%
+  mutate(
+    cumulative_caught = cumsum(caught),
+    character = str_remove(character, "caught_"),
+    character = str_to_title(character),
+    character = recode(character, "Daphnie" = "Daphne")
+  )
+{% endhighlight %}
+
 ##### *Lectures*
 
 * [Introducing R2D3](Introducing R2D3)
