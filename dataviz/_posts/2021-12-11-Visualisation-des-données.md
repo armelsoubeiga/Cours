@@ -56,7 +56,7 @@ Supplément
 * Familiarisez-vous avec [JavaScript](https://learnxinyminutes.com/docs/javascript/)
 
 
-### **TP#2 :Utilisation de d3 avec R**
+### **TP#2 et correction : Utilisation de d3 avec R**
 
 https://www.jumpingrivers.com/blog/r-d3-intro-r2d3/
 
@@ -73,7 +73,7 @@ Pour garantir que les fichiers peuvent interagir les uns avec les autres, je rec
 
 Vous devrez installer certains packages pour les étapes de nettoyage des données sur R, que vous pouvez installer avec cette ligne de code :
 
-{% highlight ruby %}
+{% highlight R %}
 # => installation des packages
 install.packages(c("dplyr", "lubridate", "r2d3", 
                    "stringr", "tidyr", "tidytuesdayR"))
@@ -90,7 +90,7 @@ library("lubridate")
 
 Dans votre fichier .R, vous pouvez copier les étapes suivantes pour lire les données et les nettoyer en vue de notre visualisation D3. Vous pouvez télécharger les données que nous utiliserons manuellement à partir d' ici [`scoobydoo.csv`](https://github.com/rfordatascience/tidytuesday/blob/master/data/2021/2021-07-13/scoobydoo.csv) si vous préférez les lire à partir d'un fichier CSV.
 
-{% highlight ruby %}
+{% highlight R %}
 # => Charger les données depuis tidytuesday
 tuesdata = tidytuesdayR::tt_load(2021, week = 29)
 scoobydoo = tuesdata$scoobydoo
@@ -134,6 +134,21 @@ monsters_caught = monsters_caught %>%
   inner_join(character_hex, by = "character")
   
 {% endhighlight %}
+
+##### *Utilisation de l'API r2d3*
+
+Nous allons en fin ajouter la ligne de code suivante. La fonction `r2d3()` vous permet de communiquer avec notre script `scoobydoo.js` en utilisant les données  `monsters_caught` que nous avons créé dans R. Comme notre script est actuellement vide, rien ne s'affiche lorsque vous exécutez cette ligne. 
+
+{% highlight R %}
+library("r2d3")
+r2d3(data = monsters_caught,
+     script = "scoobydoo.js",
+     d3_version = "5")
+{% endhighlight %}
+
+
+##### *Vos premières lignes de D3*
+
 
 ##### *Lectures*
 
