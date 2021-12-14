@@ -60,6 +60,31 @@ Supplément
 
 https://www.jumpingrivers.com/blog/r-d3-intro-r2d3/
 
+Dans ce TP#2, nous écrirons notre code dans un fichier .js séparé, mais nous l'exécuterons dans un bloc R Script pour le prévisualiser (cependant, il est également possible de prévisualiser votre code directement à partir du script comme nous l'avons vu dans le cours, mais cela manière, espérons-le, vous montrera à quel point vous pouvez facilement inclure des visualisations D3 dans tous vos développement avec R). 
+
+Donc, nous allons commencer par créer deux fichiers :
+
+* Un document R Script : scoobydoo.R
+* Un scénario D3 : scoobydoo.js
+
+Pour garantir que les fichiers peuvent interagir les uns avec les autres, je recommande de travailler dans un projet RStudio __(Fichier > Nouveau projet)__ avec les deux fichiers au même niveau .Rproj.
+
+##### *Installation des packages*
+
+Vous devrez installer certains packages pour les étapes de nettoyage des données sur R, que vous pouvez installer avec cette ligne de code :
+
+{% highlight ruby %}
+# => installation des packages
+install.packages(c("dplyr", "lubridate", "r2d3", 
+                   "stringr", "tidyr", "tidytuesdayR"))
+                   
+ # => Chargement des packages installés
+library("dplyr")
+library("tidyr")
+library("stringr")
+library("lubridate")
+{% endhighlight %}
+
 ##### *Lectures*
 
 * [Introducing R2D3](Introducing R2D3)
