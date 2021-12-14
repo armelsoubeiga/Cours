@@ -64,8 +64,8 @@ Dans ce TP#2, nous écrirons notre code dans un fichier .js séparé, mais nous 
 
 Donc, nous allons commencer par créer deux fichiers :
 
-* Un document R Script : scoobydoo.R
-* Un scénario D3 : scoobydoo.js
+* Un document R Script : `scoobydoo.R`
+* Un scénario D3 : `scoobydoo.js`
 
 Pour garantir que les fichiers peuvent interagir les uns avec les autres, je recommande de travailler dans un projet RStudio __(Fichier > Nouveau projet)__ avec les deux fichiers au même niveau .Rproj.
 
@@ -116,6 +116,24 @@ monsters_caught = scoobydoo %>%
 {% endhighlight %}
 
 Je recommande de visualier les données `monsters_caught`, car cela vous aidera à mieux comprendre le code D3 plus tard. Vous verrez qu'il y a **5 colonnes**, character qui contiennent les noms de nos membres de Mystery Inc. (Daphne, Fred, Scooby, Shaggy et Velma) ; **year** qui contient des années entre 1969 et 2021 obtenues à partir du moment où l'épisode a été diffusé ; **caught** qui contient combien de monstres ont été capturés pour chaque membre mystère chaque année et **cumulative_caught** qui est la somme cumulée de monstres capturés pour chaque membre.
+
+Nous allons ajouter une dernière colonne qui contiendra une couleur unique pour chaque caractère, afin que notre graphique en courbes soit un peu plus joli. Les couleurs sont représentées par des codes hexadécimaux obtenus à partir des illustrations officielles des personnages.
+
+{% highlight R %}
+# => Configuration des couleurs pour chaque personnage
+character_hex = tribble(
+  ~ character, ~ color,
+  "Fred", "#76a2ca",
+  "Velma", "#cd7e05",
+  "Scooby", "#966a00",
+  "Shaggy", "#b2bb1b",
+  "Daphne", "#7c68ae"
+)
+
+monsters_caught = monsters_caught %>% 
+  inner_join(character_hex, by = "character")
+  
+{% endhighlight %}
 
 ##### *Lectures*
 
