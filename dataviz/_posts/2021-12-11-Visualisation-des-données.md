@@ -146,7 +146,6 @@ r2d3(data = monsters_caught,
      d3_version = "5")
 {% endhighlight %}
 
-
 ##### *Vos premières lignes de D3*
 
 
