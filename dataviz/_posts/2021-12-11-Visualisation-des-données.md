@@ -91,7 +91,7 @@ library("lubridate")
 Dans votre fichier .R, vous pouvez copier les étapes suivantes pour lire les données et les nettoyer en vue de notre visualisation D3. Vous pouvez télécharger les données que nous utiliserons manuellement à partir d' ici [`scoobydoo.csv`](https://github.com/rfordatascience/tidytuesday/blob/master/data/2021/2021-07-13/scoobydoo.csv) si vous préférez les lire à partir d'un fichier CSV.
 
 {% highlight ruby %}
-# => # charger les données depuis tidytuesday
+# => Charger les données depuis tidytuesday
 tuesdata = tidytuesdayR::tt_load(2021, week = 29)
 scoobydoo = tuesdata$scoobydoo
                    
@@ -112,9 +112,10 @@ monsters_caught = scoobydoo %>%
     cumulative_caught = cumsum(caught),
     character = str_remove(character, "caught_"),
     character = str_to_title(character),
-    character = recode(character, "Daphnie" = "Daphne")
-  )
+    character = recode(character, "Daphnie" = "Daphne"))
 {% endhighlight %}
+
+Je recommande de visualier les données `monsters_caught`, car cela vous aidera à mieux comprendre le code D3 plus tard. Vous verrez qu'il y a **5 colonnes**, character qui contiennent les noms de nos membres de Mystery Inc. (Daphne, Fred, Scooby, Shaggy et Velma) ; **year** qui contient des années entre 1969 et 2021 obtenues à partir du moment où l'épisode a été diffusé ; **caught** qui contient combien de monstres ont été capturés pour chaque membre mystère chaque année et **cumulative_caught** qui est la somme cumulée de monstres capturés pour chaque membre.
 
 ##### *Lectures*
 
