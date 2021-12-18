@@ -292,13 +292,11 @@ Cela crée un tableau de bord statique à deux colonnes avec un graphique à gau
 
 Pour cet exemple, nous utiliserons un sous-ensemble de l' ensemble de données des clients de carte de crédit de Kaggle pour explorer les profils des clients avec une analyse exploratoire des données. Chargeons et préparons les données sous le bloc de code du tableau de bord. N'oubliez pas de stocker à la fois le tableau de bord et les données dans le même répertoire de travail!
 
-{% highlight R %}
-```{r data}
-data <- read.csv("BankChurners.csv")
-Categorical.Variables <- c("Gender", "Education_Level", "Marital_Status")
-Numeric.Variables <- c("Customer_Age", "Total_Trans_Ct", "Credit_Limit")
-```
-{% endhighlight %}
+      ```{r data}
+      data <- read.csv("BankChurners.csv")
+      Categorical.Variables <- c("Gender", "Education_Level", "Marital_Status")
+      Numeric.Variables <- c("Customer_Age", "Total_Trans_Ct", "Credit_Limit")
+      ```
 
 4 - Étape 4. Créer des entrées utilisateur
 
@@ -308,12 +306,12 @@ Le widget SelectInput crée un menu déroulant simple. Dans lewidget SelectInput
 
 Nous allons créer deux widgets SelectInput dans la barre latérale du tableau de bord, permettant à l'utilisateur de sélectionner une variable catégorielle et une variable numérique.
 
-{% highlight r %}
-```{r}
-selectInput("categorical_variable", label = "Select Categorical Variable:", choices = Categorical.Variables)
-selectInput("numeric_variable", label = "Select Numeric Variable:", choices = Numeric.Variables)
-```
-{% endhighlight %}
+
+      ```{r}
+      selectInput("categorical_variable", label = "Select Categorical Variable:", choices = Categorical.Variables)
+      selectInput("numeric_variable", label = "Select Numeric Variable:", choices = Numeric.Variables)
+      ```
+
 
 Le tableau de bord doit ressembler à ceci une fois rendu:
 
@@ -321,14 +319,13 @@ Le tableau de bord doit ressembler à ceci une fois rendu:
 
 5 - Étape 5. Créer des sorties réactives - Contenu dynamique
 
-La réactivité est ce qui rend les applications Shiny réactives, se mettant à jour automatiquement chaque fois que l'utilisateur effectue un changement. Pour rendre une sortie réactive, nous utilisons les fonctions de rendu de Shiny. Les modifications apportées aux entrées rendent automatiquement le code et mettent à jour les sorties. Shiny propose une grande variété de fonctions de rendu:
+La réactivité est ce qui rend les applications Shiny réactives, se mettant à jour automatiquement chaque fois que l'utilisateur effectue un changement. Pour rendre une sortie réactive, nous utilisons les fonctions de rendu de Shiny. Les modifications apportées aux entrées rendent automatiquement le code et mettent à jour les sorties. Shiny propose une grande variété de fonctions de rendu :
 
-{% highlight r %}
-renderPlot <- renders standard R plots 
-renderLeaflet <- renders leaflet output
-renderDT <- renders DT DataTables
-renderPlotly <- renders plotly
-{% endhighlight %}
+      renderPlot <- renders standard R plots 
+      renderLeaflet <- renders leaflet output
+      renderDT <- renders DT DataTables
+      renderPlotly <- renders plotly
+
 
 Visuel final :
 
