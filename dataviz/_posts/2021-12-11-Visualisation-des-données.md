@@ -242,12 +242,57 @@ output$distPlot <- renderPlot(...)
 
 ![](https://raw.githubusercontent.com/armelsoubeiga/Cours/gh-pages/images/1_Lmri73DDQJok6s_L2gnLng.gif)
 
+1 - Étape 1. Créer une mise en page Flexdashboard
+Initialisez un Flexdashboard à partir de R Studio en utilisant `Fichier> Nouveau fichier> R markdown> À partir d'un modèle> Tableau de bord Flex`, enregistrez et tricotez le document.
+
+
+{% highlight R %}
+---
+title: "Untitled"
+output: 
+  flexdashboard::flex_dashboard:
+    orientation: columns
+    vertical_layout: fill
+---
+
+```{r setup, include=FALSE}
+library(flexdashboard)
+```
+
+Column {data-width=650}
+-----------------------------------------------------------------------
+
+### Chart A
+
+```{r}
+
+```
+
+Column {data-width=350}
+-----------------------------------------------------------------------
+
+### Chart B
+
+```{r}
+
+```
+
+### Chart C
+
+```{r}
+
+```
+{% endhighlight %}
+
+Cela crée un tableau de bord statique à deux colonnes avec un graphique à gauche et deux à droite:
+
+![](https://raw.githubusercontent.com/armelsoubeiga/Cours/gh-pages/images/output4.png)
+
 ##### *Exercice 3 ou Examen noté*
 Imaginez vous-même une web application à partir de données que vous avez déjà analysées.
 
 ##### *Exercice 4 ou Examen noté*
 Prenez le temps de visiter le site de [Shiny-dashboard](https://rstudio.github.io/shinydashboard/index.html) qui vous permettra de pousser vos développements de WebApps encore plus loin, et de créer en quelques lignes des tableaux de bords interactifs présentables en entreprise.
-
 
 
 ##### *Lectures*
