@@ -299,6 +299,15 @@ Il fera l'objet d'un premier rendu de votre travail et à remettre avant la dern
 
 #### *Repository github du projet en place et deploiement en lige*
 
+Chaque groupe devra heberger son projet en ligne pour rendre le travail consultable en ligne.
+En fonction du langage de programmation utilisé:
+* `RShiny`
+  * Créer un compte sur [https://www.shinyapps.io/](https://www.shinyapps.io/)
+  * Suivre les instructions sur la page : [https://www.shinyapps.io/admin/#/dashboard ](https://www.shinyapps.io/admin/#/dashboard) 
+* `Django` 
+  * Créer un compte sur [https://www.heroku.com/](https://www.heroku.com/)
+  * Suivre les instructions sur la page : [Déployez une application sur Heroku](https://openclassrooms.com/fr/courses/4425076-decouvrez-le-framework-django/4632636-deployez-une-application-sur-heroku) 
+
 
 #### *Rendu final*
 
@@ -313,12 +322,11 @@ Le rendu final devra être envoyé par mail au armelsoubeiga.yahoo.fr en un seul
     * le lien github pour ceux qui aurront utiliser github pour la gestion du rojet
 
 
-
 #### *Notation du projet*
 Le projet constituera 8 % de la note de l'UE, avec la répartition suivante:
 
-critique visuel10%)
-cadrage et document de suivi (10%)
-peer review (5%)
-présentation et démo (35%)
-réalisation technique (40%)
+* critique visuel et design de la page web (10%)
+* cadrage et document de suivi (10%)
+* code source du projet (10%)
+* deploiement en ligne (30%)
+* réalisation technique (40%)
