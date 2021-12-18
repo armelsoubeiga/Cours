@@ -270,7 +270,7 @@ Prenez le temps de visiter le site de [Shiny-dashboard](https://rstudio.github.i
 
 Le projet se fera en quadrinome, et constitue 80% de la note de l'UE. Il devra être développé en `Rshiny` ou `Django` (en fonction de vos préférences), et mis en ligne.
 
-Nous utiliserons [ce document partagé pour effectuer le suivi des groupes](). Les données personnelles (nom, prénoms, numéros d'étudiants, groupe, etc. seront gérées via cette table.
+Nous utiliserons [ce document partagé pour effectuer le suivi des groupes](https://docs.google.com/spreadsheets/d/1B0oUkic9J1vkuaVgGJBOeB522sxPId2P/edit?usp=sharing&ouid=111396284941813972855&rtpof=true&sd=true). Les données personnelles (nom, prénoms, numéros d'étudiants, groupe, etc. seront gérées via cette table.
 
 #### *Choix d'un sujet*
 
@@ -284,7 +284,7 @@ Les groupes devront être constitués au plus tard lors de la séance 2 du cours
 
 Nous prendrons un temps pendant cette séance pour grouper les personnes qui n'ont pas trouvé encore de groupe. Il est important d'avoir réfléchit aux thématiques qui vous intéresse.
 
-Renseignez les informations sur votre groupe, en modifiant [ce document partagé pour effectuer le suivi des groupes]().
+Renseignez les informations sur votre groupe, en modifiant [ce document partagé pour effectuer le suivi des groupes](https://docs.google.com/spreadsheets/d/1B0oUkic9J1vkuaVgGJBOeB522sxPId2P/edit?usp=sharing&ouid=111396284941813972855&rtpof=true&sd=true).
 
 #### *Document de cadrage du projet*
 
