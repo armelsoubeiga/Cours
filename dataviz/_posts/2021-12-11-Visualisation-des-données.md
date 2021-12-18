@@ -55,7 +55,7 @@ Supplément
 
 * Familiarisez-vous avec [JavaScript](https://learnxinyminutes.com/docs/javascript/)
 
-***
+******
 
 ### **TP#2 et correction : Utilisation de d3 avec R**
 
