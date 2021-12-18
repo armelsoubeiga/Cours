@@ -179,7 +179,11 @@ let plotGroup = svg.append("g")
                          "translate(" + margin.left + "," + margin.top + ")")
 {% endhighlight %}
                          
-                         
+##### *Graphique en courbe*
+Maintenant, nous devons reformater légèrement nos données pour pouvoir créer un graphique en courbes avec plusieurs lignes. Chaque ligne représentera un membre de Mystery Inc., nous souhaitons donc créer une structure arborescente hiérarchique avec les données de chaque caractère. 
+
+  [Obtenez les fichiers finaux .R et .js](https://github.com/armelsoubeiga/Cours/tree/master/DataViz)
+
 ##### *Lectures*
 
 * [Introducing R2D3](Introducing R2D3)
