@@ -18,13 +18,13 @@ date:   12/2021
 
 ##### *Visualisation des fleurs d'iris*
 
-1. Téléchargez le [`iris.csv`](https://github.com/armelsoubeiga/Cours-2020-2021/blob/master/DataViz/data/iris.csv) et chargez-le dans Tableau; convertir les types de données (si nécessaire)
+1. Téléchargez le [`iris.csv`](https://github.com/armelsoubeiga/Cours/blob/master/DataViz/data/iris.csv) et chargez-le dans Tableau; convertir les types de données (si nécessaire)
 2. Tracez un **scatterplot** avec X:sepal_length, Y:sepal_width, color:species et une ligne de tendance
 3. Enregistrez sous un onglet et enregistrez le classeur
 
 ##### *Carte des élections*
 
-1. Téléchargez le [`us-elections-history.csv`](https://github.com/armelsoubeiga/Cours-2020-2021/blob/master/DataViz/data/us-elections-history.csv) et chargez-le dans Tableau; convertir les types de données (si nécessaire)
+1. Téléchargez le [`us-elections-history.csv`](https://github.com/armelsoubeiga/Cours/blob/master/DataViz/data/us-elections-history.csv) et chargez-le dans Tableau; convertir les types de données (si nécessaire)
 2. Tracez une grille avec «Année» comme colonnes, «État» comme lignes et «État Gagnant» comme couleur/repères.
 3. Enregistrer sous un onglet
 4. Tracez une **géo-carte** avec les couleurs gagnantes en 2012 `Latitude (générée)` et `Longitude (générée)`, avec `État` comme formes et couleur `ATTR([État Gagnant])`
@@ -34,7 +34,7 @@ Supplément
 
 ##### *Visualisations des marchés boursiers*
 
-1. Téléchargez le [`stocks.csv`](dhttps://github.com/armelsoubeiga/Cours-2020-2021/blob/master/DataViz/data/stocks.csv) et chargez-le dans Tableau; convertir les types de données (si nécessaire)
+1. Téléchargez le [`stocks.csv`](dhttps://github.com/armelsoubeiga/Cours/blob/master/DataViz/data/stocks.csv) et chargez-le dans Tableau; convertir les types de données (si nécessaire)
 2. Tracez un **graphique à lignes multiples** au fil du temps, pour toutes les actions dans une couleur différente, regroupées par société
 3. Tracez un **histogramme groupé** (sociétés en catégories, regroupées par année ou par sociétés)
 4. **Votre propre carte**!
@@ -42,7 +42,7 @@ Supplément
 
 ##### *Ensemble de données mondial Superstore*
 
-1. Téléchargez le [`Global-Superstore-Orders-2016.xlsx`](https://github.com/armelsoubeiga/Cours-2020-2021/blob/master/DataViz/data/Global-Superstore-Orders-2016.xlsx) et chargez-le dans Tableau; joindre des ensembles de données (si nécessaire)
+1. Téléchargez le [`Global-Superstore-Orders-2016.xlsx`](https://github.com/armelsoubeiga/Cours/blob/master/DataViz/data/Global-Superstore-Orders-2016.xlsx) et chargez-le dans Tableau; joindre des ensembles de données (si nécessaire)
 2. Trouvez une histoire / sélection intéressante avec cet ensemble de données
 3. Créez un tableau de bord et expliquez votre histoire/constatation
 4. BONUS: ajouter une narration (fonction Tableau)
@@ -147,6 +147,22 @@ r2d3(data = monsters_caught,
 {% endhighlight %}
 
 ##### *Vos premières lignes de D3*
+
+Bon, ajoutons mainteant du code à notre script D3. Nous commençons par définir certaines variables en tant que constantes. Notamment, la largeur et la hauteur du tracé, ainsi que la taille de police. Définir ces constantes tout au début, les rend faciles à trouver et à modifier.
+
+{% highlight js %}
+// in scoobydoo.js
+
+// configuration des constantes utilisées tout au long du script
+const margin = {top: 80, right: 100, bottom: 40, left: 60}
+const plotWidth = 800 - margin.left - margin.right
+const plotHeight = 400 - margin.top - margin.bottom
+
+const lineWidth = 3
+const mediumText = 18
+const bigText = 28
+{% endhighlight %}
+
 
 
 ##### *Lectures*
