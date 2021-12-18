@@ -8,7 +8,6 @@ date:   12/2021
 
 <br/>
 
-
 ### **TP#1 : Notion de viz**
 
 ##### *Tutoriel visualisation utilisant l'outil Tableau*
