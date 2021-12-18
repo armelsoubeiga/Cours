@@ -288,10 +288,17 @@ Cela crée un tableau de bord statique à deux colonnes avec un graphique à gau
 
 ![](https://raw.githubusercontent.com/armelsoubeiga/Cours/gh-pages/images/output4.png)
 
+2 - Étape 2. Personnalisez le Flexdashboard
+
+![](https://raw.githubusercontent.com/armelsoubeiga/Cours/gh-pages/images/output5.png)
+
+
 ##### *Exercice 3 ou Examen noté*
+
 Imaginez vous-même une web application à partir de données que vous avez déjà analysées.
 
 ##### *Exercice 4 ou Examen noté*
+
 Prenez le temps de visiter le site de [Shiny-dashboard](https://rstudio.github.io/shinydashboard/index.html) qui vous permettra de pousser vos développements de WebApps encore plus loin, et de créer en quelques lignes des tableaux de bords interactifs présentables en entreprise.
 
 
