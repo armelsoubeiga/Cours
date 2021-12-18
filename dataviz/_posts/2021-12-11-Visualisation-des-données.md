@@ -198,6 +198,7 @@ Maintenant, nous devons reformater légèrement nos données pour pouvoir créer
 <br/>
 
 ### **TP#3 : Développement d’un tableau de bord avec des graphiques interactifs**
+
 Au regard des technologies dont nous disposons, les explorations de données et les rendus d’analyses statistiques se veulent désormais dynamiques. Sous R, vous allez pouvoir construire des applications Web (dites WebApps) grâce à l’utilisation de [Shiny](https://shiny.rstudio.com/). Le développement de WebApps Shiny est très bien détaillé sur internet. Il existe de nombreux tutoriaux et exemples sur le site web, la communauté est très dynamique et l’évolution du code est continue.
 
 *Pre-requis* : le TP est conçu pour être réalisé à l’aide de RStudio et du package Shiny. Avant de commencer, vérifier que ce dernier est bien installé dans sur votre machine.
