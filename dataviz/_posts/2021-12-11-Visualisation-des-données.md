@@ -199,10 +199,10 @@ Au regard des technologies dont nous disposons, les explorations de données et 
 ##### *Exercice 1 : Vanilla Shiny WebApp*
 
 Dans ce premier exercice nous souhaitons créer une première application web (voir ci-après) à partir de l’IDE RStudio.
-![](images/output2.png)
+![](images/output1.png)
 
 1. Ouvrez RStudio. À l’intérieur d’un nouveau projet, créez une nouvelle application Shiny. Nommez-la par exemple `Vanilla`. Vous pouvez choisir un unique fichier contenant la partie `UI` et la partie `SERVER`, soit choisir plusieurs fichiers. Pour plus de clareté dans votre code, il est conseillé d’utiliser les fichiers multiples. Note : Par la suite nous supposons que l’étudiant a fait ce choix.
-![](images/output1.png)
+![](images/output2.png)
 
 
 2. Ouvrez le dossier créé par RStudio. Explorez les deux fichiers `ui.R` et `server.R`. Sans surprise, la logique et la description de l’interface utilisateur est contenue dans le fichier `ui.R`, alors que le backend est contenu dans le fichier `server.R`.
