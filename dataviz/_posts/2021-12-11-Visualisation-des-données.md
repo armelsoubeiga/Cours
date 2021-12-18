@@ -152,7 +152,6 @@ Bon, ajoutons mainteant du code à notre script D3. Nous commençons par défini
 
 {% highlight js %}
 // in scoobydoo.js
-
 // configuration des constantes utilisées tout au long du script
 const margin = {top: 80, right: 100, bottom: 40, left: 60}
 const plotWidth = 800 - margin.left - margin.right
@@ -163,8 +162,24 @@ const mediumText = 18
 const bigText = 28
 {% endhighlight %}
 
+Les attributs sont un autre concept important. Par exemple, un élément SVG a un certain nombre de propriétés et celles-ci peuvent être définies en tant qu'attributs. Par exemple, ici, nous définissons l'attribut **width** du SVG comme la largeur de notre tracé.
 
+{% highlight js %}
+// définition la largeur et la hauteur de l'élément svg (tracé + marge)
+svg.attr("width", plotWidth + margin.left + margin.right)
+   .attr("height", plotHeight + margin.top + margin.bottom)
+{% endhighlight %}
 
+Enfin, nous créons un groupe qui représentera le tracé à l'intérieur de notre élément SVG.
+
+{% highlight js %}
+//création d'un groupe de tracés
+let plotGroup = svg.append("g")
+                   .attr("transform",
+                         "translate(" + margin.left + "," + margin.top + ")")
+{% endhighlight %}
+                         
+                         
 ##### *Lectures*
 
 * [Introducing R2D3](Introducing R2D3)
