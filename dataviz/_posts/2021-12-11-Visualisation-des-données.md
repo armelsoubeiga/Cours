@@ -6,7 +6,9 @@ date:   12/2021
 
 {% include toc.md %}
 
-<br/><br/>
+<br/>
+
+\newpage
 
 ### **TP#1 : Notion de viz**
 
