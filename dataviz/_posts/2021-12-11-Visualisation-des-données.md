@@ -319,7 +319,11 @@ selectInput("numeric_variable", label = "Select Numeric Variable:", choices = Nu
 ```
 {% endhighlight %}
 
+Le tableau de bord doit ressembler à ceci une fois rendu:
 
+![](https://raw.githubusercontent.com/armelsoubeiga/Cours/gh-pages/images/output6.png)
+
+5 - Étape 5. Créer des sorties réactives - Contenu dynamique
 
 ##### *Exercice 3 ou Examen noté*
 
