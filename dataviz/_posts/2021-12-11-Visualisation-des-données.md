@@ -219,7 +219,7 @@ Dans `ui.R`, nous retrouvons
 
 Par exemple, pour récupérer le nombre de bins` dans la partie server.R` il faut utiliser input$bins` puisque l’input` est déclaré par
 
-{% highlight R %}
+{% highlight r %}
 # ui.R
 sliderInput(inputId = "bins",
             ...)
@@ -245,8 +245,8 @@ output$distPlot <- renderPlot(...)
 1 - Étape 1. Créer une mise en page Flexdashboard
 Initialisez un Flexdashboard à partir de R Studio en utilisant `Fichier> Nouveau fichier> R markdown> À partir d'un modèle> Tableau de bord Flex`, enregistrez et tricotez le document.
 
+{% highlight r %}
 
-{% highlight R %}
 ---
 title: "Untitled"
 output: 
@@ -312,7 +312,7 @@ Le widget SelectInput crée un menu déroulant simple. Dans lewidget SelectInput
 
 Nous allons créer deux widgets SelectInput dans la barre latérale du tableau de bord, permettant à l'utilisateur de sélectionner une variable catégorielle et une variable numérique.
 
-{% highlight R %}
+{% highlight r %}
 ```{r}
 selectInput("categorical_variable", label = "Select Categorical Variable:", choices = Categorical.Variables)
 selectInput("numeric_variable", label = "Select Numeric Variable:", choices = Numeric.Variables)
@@ -324,6 +324,19 @@ Le tableau de bord doit ressembler à ceci une fois rendu:
 ![](https://raw.githubusercontent.com/armelsoubeiga/Cours/gh-pages/images/output6.png)
 
 5 - Étape 5. Créer des sorties réactives - Contenu dynamique
+
+La réactivité est ce qui rend les applications Shiny réactives, se mettant à jour automatiquement chaque fois que l'utilisateur effectue un changement. Pour rendre une sortie réactive, nous utilisons les fonctions de rendu de Shiny. Les modifications apportées aux entrées rendent automatiquement le code et mettent à jour les sorties. Shiny propose une grande variété de fonctions de rendu:
+
+{% highlight r %}
+renderPlot - renders standard R plots 
+renderLeaflet — renders leaflet output
+renderDT — renders DT DataTables
+renderPlotly — renders plotly
+{% endhighlight %}
+
+Visuel final :
+
+![](https://raw.githubusercontent.com/armelsoubeiga/Cours/gh-pages/images/1_Lmri73DDQJok6s_L2gnLng2.gif)
 
 ##### *Exercice 3 ou Examen noté*
 
