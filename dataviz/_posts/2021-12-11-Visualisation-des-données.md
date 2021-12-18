@@ -204,7 +204,7 @@ Dans ce premier exercice nous souhaitons créer une première application web (v
 
 1 - Ouvrez RStudio. À l’intérieur d’un nouveau projet, créez une nouvelle application Shiny. Nommez-la par exemple `Vanilla`. Vous pouvez choisir un unique fichier contenant la partie `UI` et la partie `SERVER`, soit choisir plusieurs fichiers. Pour plus de clareté dans votre code, il est conseillé d’utiliser les fichiers multiples. Note : Par la suite nous supposons que l’étudiant a fait ce choix.
 
-![](images/output2.png)
+![](https://raw.githubusercontent.com/armelsoubeiga/Cours/gh-pages/images/output2.png)
 
 
 2 - Ouvrez le dossier créé par RStudio. Explorez les deux fichiers `ui.R` et `server.R`. Sans surprise, la logique et la description de l’interface utilisateur est contenue dans le fichier `ui.R`, alors que le backend est contenu dans le fichier `server.R`.
@@ -234,7 +234,7 @@ output$distPlot <- renderPlot(...)
 
 3 - Lancez directement l’application en cliquant sur le bouton Run App lorsque vous avez un de ces fichiers ouvert.
 
-![](images/output3.png)
+![](https://raw.githubusercontent.com/armelsoubeiga/Cours/gh-pages/images/output3.png)
 
 4 - Observez qu’en faisant varier le nombre de “bins”, l’histogramme est alors bien rendu dynamiquement.
 
