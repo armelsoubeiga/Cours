@@ -57,6 +57,8 @@ Supplément
 
 ******
 
+<br/>
+
 ### **TP#2 et correction : Utilisation de d3 avec R**
 
 Dans ce TP#2, nous écrirons notre code dans un fichier .js séparé, mais nous l'exécuterons dans un bloc R Script pour le prévisualiser (cependant, il est également possible de prévisualiser votre code directement à partir du script comme nous l'avons vu dans le cours, mais cela manière, espérons-le, vous montrera à quel point vous pouvez facilement inclure des visualisations D3 dans tous vos développement avec R). 
@@ -192,6 +194,8 @@ Maintenant, nous devons reformater légèrement nos données pour pouvoir créer
 * How I learned to stop templating and love R2D3, RStudio::conf 2020 JS4Shiny Workshop, by Nick Strayer Vanderbilt University [http://nickstrayer.me/js4shiny_r2d3/slides/#1](http://nickstrayer.me/js4shiny_r2d3/slides/#1)
 
 ******
+
+<br/>
 
 ### **TP#3 : Développement d’un tableau de bord avec des graphiques interactifs**
 Au regard des technologies dont nous disposons, les explorations de données et les rendus d’analyses statistiques se veulent désormais dynamiques. Sous R, vous allez pouvoir construire des applications Web (dites WebApps) grâce à l’utilisation de [Shiny](https://shiny.rstudio.com/). Le développement de WebApps Shiny est très bien détaillé sur internet. Il existe de nombreux tutoriaux et exemples sur le site web, la communauté est très dynamique et l’évolution du code est continue.
@@ -353,6 +357,8 @@ Prenez le temps de visiter le site de [Shiny-dashboard](https://rstudio.github.i
 
 
 ******
+
+<br/>
 
 ### **Projet et examen**
 
