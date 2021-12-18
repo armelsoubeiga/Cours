@@ -238,7 +238,33 @@ output$distPlot <- renderPlot(...)
 
 4 - Observez qu’en faisant varier le nombre de “bins”, l’histogramme est alors bien rendu dynamiquement.
 
+##### *Exercice 2 : Créez un tableau de bord interactif avec Shiny, Flexdashboard et Plotly*
+
+##### *Exercice 3 ou Examen noté*
+Imaginez vous-même une web application à partir de données que vous avez déjà analysées.
+
+##### *Exercice 4 ou Examen noté*
+Prenez le temps de visiter le site de [Shiny-dashboard](https://rstudio.github.io/shinydashboard/index.html) qui vous permettra de pousser vos développements de WebApps encore plus loin, et de créer en quelques lignes des tableaux de bords interactifs présentables en entreprise.
+
+
+
+##### *Lectures*
+
+* [https://m.canouil.fr/rshiny/#1](https://m.canouil.fr/rshiny/#1)
+* [Le tutoriel Shiny officiel](https://shiny.rstudio.com/tutorial/)
+* [The Shiny Cheat sheet](https://shiny.rstudio.com/articles/cheatsheet.html)
+* [Un autre tutorial Shiny](https://bookdown.org/weicheng/shinyTutorial/)
+* [Une liste d’articles](https://shiny.rstudio.com/articles/)
+* [La référence des fonctions Shiny](https://shiny.rstudio.com/reference/shiny/)
+
 
 ### **Projet et examen**
 
+#### *Checklist et étapes obligatoires pour les projets*
+
+* Choix d'un sujet ou proposition de projet
+* Constitution des groupes
+* Document de cadrage du projet
+* Repository github du projet en place et deploiement en lige
+* Rendu final du projet
 
