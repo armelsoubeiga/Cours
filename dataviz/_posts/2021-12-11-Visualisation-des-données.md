@@ -292,6 +292,18 @@ Cela crée un tableau de bord statique à deux colonnes avec un graphique à gau
 
 ![](https://raw.githubusercontent.com/armelsoubeiga/Cours/gh-pages/images/output5.png)
 
+3 - Étape 3. Récupérez et préparez les données
+
+Pour cet exemple, nous utiliserons un sous-ensemble de l' ensemble de données des clients de carte de crédit de Kaggle pour explorer les profils des clients avec une analyse exploratoire des données. Chargeons et préparons les données sous le bloc de code du tableau de bord. N'oubliez pas de stocker à la fois le tableau de bord et les données dans le même répertoire de travail!
+
+{% highlight R %}
+```{r data}
+data <- read.csv("BankChurners.csv")
+Categorical.Variables = c("Gender", "Education_Level", "Marital_Status")
+Numeric.Variables = c("Customer_Age", "Total_Trans_Ct", "Credit_Limit")
+```
+{% endhighlight %}
+
 
 ##### *Exercice 3 ou Examen noté*
 
