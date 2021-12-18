@@ -55,7 +55,7 @@ Supplément
 
 * Familiarisez-vous avec [JavaScript](https://learnxinyminutes.com/docs/javascript/)
 
-</hr>
+***
 
 ### **TP#2 et correction : Utilisation de d3 avec R**
 
@@ -192,7 +192,6 @@ Maintenant, nous devons reformater légèrement nos données pour pouvoir créer
 * How I learned to stop templating and love R2D3, RStudio::conf 2020 JS4Shiny Workshop, by Nick Strayer Vanderbilt University [http://nickstrayer.me/js4shiny_r2d3/slides/#1](http://nickstrayer.me/js4shiny_r2d3/slides/#1)
 
 
-</hr>
 
 ### **TP#3 : Développement d’un tableau de bord avec des graphiques interactifs**
 Au regard des technologies dont nous disposons, les explorations de données et les rendus d’analyses statistiques se veulent désormais dynamiques. Sous R, vous allez pouvoir construire des applications Web (dites WebApps) grâce à l’utilisation de [Shiny](https://shiny.rstudio.com/). Le développement de WebApps Shiny est très bien détaillé sur internet. Il existe de nombreux tutoriaux et exemples sur le site web, la communauté est très dynamique et l’évolution du code est continue.
@@ -352,7 +351,6 @@ Prenez le temps de visiter le site de [Shiny-dashboard](https://rstudio.github.i
 * [Une liste d’articles](https://shiny.rstudio.com/articles/)
 * [La référence des fonctions Shiny](https://shiny.rstudio.com/reference/shiny/)
 
-</hr>
 
 ### **Projet et examen**
 
