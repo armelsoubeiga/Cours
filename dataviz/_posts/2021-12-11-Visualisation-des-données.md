@@ -253,6 +253,7 @@ output:
   flexdashboard::flex_dashboard:
     orientation: columns
     vertical_layout: fill
+    
 ---
 
 ```{r setup, include=FALSE}
@@ -265,7 +266,6 @@ Column {data-width=650}
 ### Chart A
 
 ```{r}
-
 ```
 
 Column {data-width=350}
@@ -274,13 +274,11 @@ Column {data-width=350}
 ### Chart B
 
 ```{r}
-
 ```
 
 ### Chart C
 
 ```{r}
-
 ```
 {% endhighlight %}
 
@@ -299,8 +297,8 @@ Pour cet exemple, nous utiliserons un sous-ensemble de l' ensemble de données d
 {% highlight R %}
 ```{r data}
 data <- read.csv("BankChurners.csv")
-Categorical.Variables = c("Gender", "Education_Level", "Marital_Status")
-Numeric.Variables = c("Customer_Age", "Total_Trans_Ct", "Credit_Limit")
+Categorical.Variables <- c("Gender", "Education_Level", "Marital_Status")
+Numeric.Variables <- c("Customer_Age", "Total_Trans_Ct", "Credit_Limit")
 ```
 {% endhighlight %}
 
@@ -328,10 +326,10 @@ Le tableau de bord doit ressembler à ceci une fois rendu:
 La réactivité est ce qui rend les applications Shiny réactives, se mettant à jour automatiquement chaque fois que l'utilisateur effectue un changement. Pour rendre une sortie réactive, nous utilisons les fonctions de rendu de Shiny. Les modifications apportées aux entrées rendent automatiquement le code et mettent à jour les sorties. Shiny propose une grande variété de fonctions de rendu:
 
 {% highlight r %}
-renderPlot - renders standard R plots 
-renderLeaflet — renders leaflet output
-renderDT — renders DT DataTables
-renderPlotly — renders plotly
+renderPlot <- renders standard R plots 
+renderLeaflet <- renders leaflet output
+renderDT <- renders DT DataTables
+renderPlotly <- renders plotly
 {% endhighlight %}
 
 Visuel final :
