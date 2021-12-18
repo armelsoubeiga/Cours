@@ -58,8 +58,6 @@ Supplément
 
 ### **TP#2 et correction : Utilisation de d3 avec R**
 
-https://www.jumpingrivers.com/blog/r-d3-intro-r2d3/
-
 Dans ce TP#2, nous écrirons notre code dans un fichier .js séparé, mais nous l'exécuterons dans un bloc R Script pour le prévisualiser (cependant, il est également possible de prévisualiser votre code directement à partir du script comme nous l'avons vu dans le cours, mais cela manière, espérons-le, vous montrera à quel point vous pouvez facilement inclure des visualisations D3 dans tous vos développement avec R). 
 
 Donc, nous allons commencer par créer deux fichiers :
