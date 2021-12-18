@@ -236,7 +236,7 @@ output$distPlot <- renderPlot(...)
 
 ![](https://raw.githubusercontent.com/armelsoubeiga/Cours/gh-pages/images/output3.png)
 
-4 - Observez qu’en faisant varier le nombre de “bins”, l’histogramme est alors bien rendu dynamiquement.
+4 - Observez qu’en faisant varier le nombre de `bins`, l’histogramme est alors bien rendu dynamiquement.
 
 ##### *Exercice 2 : Créez un tableau de bord interactif avec Shiny, Flexdashboard et Plotly*
 
@@ -268,3 +268,6 @@ Prenez le temps de visiter le site de [Shiny-dashboard](https://rstudio.github.i
 * Repository github du projet en place et deploiement en lige
 * Rendu final du projet
 
+Le projet se fera en quadrinome, et constitue 80% de la note de l'UE. Il devra être développé en `Rshiny` ou `Django` (en fonction de vos préférences), et mis en ligne.
+
+Nous utiliserons [ce document partagé pour effectuer le suivi des groupes](). Les données personnelles (nom, prénoms, numéros d'étudiants, groupe, etc. seront gérées via cette table.
