@@ -304,6 +304,22 @@ Numeric.Variables = c("Customer_Age", "Total_Trans_Ct", "Credit_Limit")
 ```
 {% endhighlight %}
 
+4 - Étape 4. Créer des entrées utilisateur
+
+Les entrées utilisateur sont les composants clés d'un tableau de bord dynamique, des fonctionnalités de pilotage, de l'expérience utilisateur et des résultats finaux. 
+
+Le widget SelectInput crée un menu déroulant simple. Dans lewidget SelectInput, nous spécifions trois arguments: (1) nom : invisible pour l'utilisateur, que nous utilisons pour accéder à la valeur du widget, (2) étiquette: affichée au-dessus du menu déroulant, et (3) choix : liste de valeurs que l'utilisateur doit sélectionner .
+
+Nous allons créer deux widgets SelectInput dans la barre latérale du tableau de bord, permettant à l'utilisateur de sélectionner une variable catégorielle et une variable numérique.
+
+{% highlight R %}
+```{r}
+selectInput("categorical_variable", label = "Select Categorical Variable:", choices = Categorical.Variables)
+selectInput("numeric_variable", label = "Select Numeric Variable:", choices = Numeric.Variables)
+```
+{% endhighlight %}
+
+
 
 ##### *Exercice 3 ou Examen noté*
 
