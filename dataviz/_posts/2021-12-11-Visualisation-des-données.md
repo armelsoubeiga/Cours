@@ -245,42 +245,40 @@ output$distPlot <- renderPlot(...)
 1 - Étape 1. Créer une mise en page Flexdashboard
 Initialisez un Flexdashboard à partir de R Studio en utilisant `Fichier> Nouveau fichier> R markdown> À partir d'un modèle> Tableau de bord Flex`, enregistrez et tricotez le document.
 
-{% highlight r %}
 
----
-title: "Untitled"
-output: 
-  flexdashboard::flex_dashboard:
-    orientation: columns
-    vertical_layout: fill
-    
----
+        ---
+        title: "Untitled"
+        output: 
+          flexdashboard::flex_dashboard:
+            orientation: columns
+            vertical_layout: fill
 
-```{r setup, include=FALSE}
-library(flexdashboard)
-```
+        ---
 
-Column {data-width=650}
------------------------------------------------------------------------
+        ```{r setup, include=FALSE}
+        library(flexdashboard)
+        ```
 
-### Chart A
+        Column {data-width=650}
+        -----------------------------------------------------------------------
 
-```{r}
-```
+        ### Chart A
 
-Column {data-width=350}
------------------------------------------------------------------------
+        ```{r}
+        ```
 
-### Chart B
+        Column {data-width=350}
+        -----------------------------------------------------------------------
 
-```{r}
-```
+        ### Chart B
 
-### Chart C
+        ```{r}
+        ```
 
-```{r}
-```
-{% endhighlight %}
+        ### Chart C
+
+        ```{r}
+        ```
 
 Cela crée un tableau de bord statique à deux colonnes avec un graphique à gauche et deux à droite:
 
