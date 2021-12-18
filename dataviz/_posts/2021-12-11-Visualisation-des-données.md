@@ -240,6 +240,8 @@ output$distPlot <- renderPlot(...)
 
 ##### *Exercice 2 : Créez un tableau de bord interactif avec Shiny, Flexdashboard et Plotly*
 
+![](https://github.com/armelsoubeiga/Cours/blob/gh-pages/images/1_Lmri73DDQJok6s_L2gnLng.gif)
+
 ##### *Exercice 3 ou Examen noté*
 Imaginez vous-même une web application à partir de données que vous avez déjà analysées.
 
