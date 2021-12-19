@@ -8,8 +8,6 @@ date:   12/2021
 
 #### TP Stats-Proba
 
-[Projet Stats Proba](https://raw.githubusercontent.com/armelsoubeiga/Cours/master/Statistiques%20et%20Probabilit%C3%A9s/projet/projet-Stats-Proba.html)
-
 [Projet Stats Proba - PDF ](https://github.com/armelsoubeiga/Cours/blob/master/Statistiques%20et%20Probabilit%C3%A9s/projet/projet-Stats-Proba.pdf)
 
 [Data](https://github.com/armelsoubeiga/Cours/tree/master/Statistiques%20et%20Probabilit%C3%A9s/projet/data)
