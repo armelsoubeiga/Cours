@@ -2,7 +2,7 @@
 layout: default
 ---
 
-Bienvenue sur la page de mes cours d'enseignement. J'interviens à distance et à présentielles dans les universités suivantes : UVB, UNB, UNZ, UGA, UCA
+Bienvenue sur la page de mes cours d'enseignement. J'interviens à distance et à présentielles dans les universités suivantes : UVB, UNB, UCA
 
 
 ### Statistiques et Probabilités
