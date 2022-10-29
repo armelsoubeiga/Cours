@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Projet - Session de rattrapage"
-date: "10/2022"
+date: 10/2022
 ---
 
 {% include toc.md %}
