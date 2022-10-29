@@ -68,9 +68,10 @@ Soit les données provenant du package [gapminder](https://github.com/jennybc/ga
 
 Voici les premières lignes de la table :
 
-```{r data}
-DT::datatable(gapminder::gapminder)
-```
+{% highlight R %}
+  DT::datatable(gapminder::gapminder)
+{% endhighlight %}
+
 
 #### Structure de l'application
 
@@ -149,8 +150,6 @@ Vous devez envoyer à l'adresse mail suivante :
 
 - votre code du tableau de bord (en 1 fichier)
 - un document word contenant vos réponses du QCM de l'exercice 1
-
-
 
     armel.soubeiga@yahoo.fr
 
