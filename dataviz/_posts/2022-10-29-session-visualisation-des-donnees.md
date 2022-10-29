@@ -76,47 +76,47 @@ DT::datatable(gapminder::gapminder)
 
 Pour pouvoir l'utiliser, vous pouvez utiliser le code suivant :
 
-```{r use, echo = TRUE, eval = FALSE}
-library(gapminder)
-View(gapminder)
-```
+{% highlight R %}
+  library(gapminder)
+  View(gapminder)
+{% endhighlight %}
 
 Nous allons travaillé sur une structure initiale de l'application. La voici :
 
-```{r eval = FALSE, echo = TRUE}
-library(shiny)
-library(shinydashboard)
-library(gapminder)
-library(tidyverse)
-ui <- dashboardPage(
-  dashboardHeader(),
-  dashboardSidebar(
-    sidebarMenu(
-      menuItem("Espérance de vie", tabName = "evol", icon = icon("chart-line")),
-      menuItem("Données", tabName = "data", icon = icon("table"))
-    )
-  ),
-  dashboardBody(
-    tabItems(
-      tabItem(
-        tabName = "evol",
-        box(title = "Evolution depuis 1952",
-            plotOutput("life"))
-      ),
-      tabItem(
-        tabName = "data"
+{% highlight R %}
+  library(shiny)
+  library(shinydashboard)
+  library(gapminder)
+  library(tidyverse)
+  ui <- dashboardPage(
+    dashboardHeader(),
+    dashboardSidebar(
+      sidebarMenu(
+        menuItem("Espérance de vie", tabName = "evol", icon = icon("chart-line")),
+        menuItem("Données", tabName = "data", icon = icon("table"))
       )
-    )
-  ),
-  title = "Gapminder"
-)
-server <- function(input, output, session) {
-  output$life = renderPlot({
-    # epsérance de vie médiane depuis 1952
-  })  
-}
-shinyApp(ui, server)
-```
+    ),
+    dashboardBody(
+      tabItems(
+        tabItem(
+          tabName = "evol",
+          box(title = "Evolution depuis 1952",
+              plotOutput("life"))
+        ),
+        tabItem(
+          tabName = "data"
+        )
+      )
+    ),
+    title = "Gapminder"
+  )
+  server <- function(input, output, session) {
+    output$life = renderPlot({
+      # epsérance de vie médiane depuis 1952
+    })  
+  }
+  shinyApp(ui, server)
+{% endhighlight %}
 
 Le message ET le code doivent être clairs et compréhensibles. Essayez de faire un minimum de commande. La notation prendra en compte la qualité de code, en plus de la qualité de la réponse.
 
@@ -145,8 +145,13 @@ Le message ET le code doivent être clairs et compréhensibles. Essayez de faire
 
 ### **Rendu**
 
-Vous devez envoyer votre code (en 1 fichier) à l'adresse mail suivante :
+Vous devez envoyer à l'adresse mail suivante : 
 
-    francois-xavier.jollois@parisdescartes.fr
+- votre code du tableau de bord (en 1 fichier)
+- un document word contenant vos réponses du QCM de l'exercice 1
+
+
+
+    armel.soubeiga@yahoo.fr
 
 
