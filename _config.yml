@@ -3,6 +3,7 @@ title: cours-armelsoubeiga
 description: > 
             ML Engineer - AI DevOps
 show_downloads: false
+darkmode: true
 theme: jekyll-theme-cayman
 gems:
   - jekyll-paginate
