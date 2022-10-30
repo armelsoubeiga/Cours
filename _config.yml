@@ -4,10 +4,6 @@ description: >
             ML Engineer - AI DevOps
 show_downloads: false
 google_analytics: 128994988
-color:
-  header: "#000"
-  gradient_left: "#e53935"
-  gradient_right: "#f57c00"
 theme: jekyll-theme-cayman
 gems:
   - jekyll-paginate
