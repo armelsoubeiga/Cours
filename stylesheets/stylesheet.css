@@ -452,7 +452,7 @@ header {
   padding-top: 40px;
   padding-bottom: 40px;
   font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif;
-  background: #6d6d6e;
+  background: #2e7bcf url(../images/header-bg.jpg) 0 0 repeat-x;
   border-bottom: solid 1px #275da1;
 }
 */
@@ -460,7 +460,7 @@ header {
   padding-top: 40px;
   padding-bottom: 40px;
   font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif;
-  background: #6d6d6e url(../images/header-bg-0.PNG) 0 0 repeat-x;
+  background: transparent url(../images/header-bg-0.png) 0 0 repeat-x;
   border-bottom: solid 1px #275da1;
 }
 
@@ -545,6 +545,8 @@ header a.button {
   right: 0;
   background: transparent url(../images/github-button.png) 0 0 no-repeat;
 }
+
+/*
 aside a.button {
   display: block;
   width: 138px;
@@ -552,6 +554,15 @@ aside a.button {
   margin-bottom: 20px;
   font-size: 21px;
   background: transparent url(../images/download-button.png) 0 0 no-repeat;
+}
+*/
+aside a.button {
+  display: block;
+  width: 138px;
+  padding-left: 64px;
+  margin-bottom: 20px;
+  font-size: 21px;
+  background: transparent url(../images/header-bg-0.png) 0 0 repeat-x;
 }
 
 code, pre {
