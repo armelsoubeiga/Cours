@@ -5,6 +5,9 @@ description: >
 show_downloads: false
 google_analytics: 128994988
 theme: jekyll-theme-cayman
+colors:
+    gradient_left: "#4a4b4d"
+    gradient_right: "#4a4b4d"
 gems:
   - jekyll-paginate
 
