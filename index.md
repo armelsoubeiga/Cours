@@ -40,3 +40,10 @@ Bienvenue sur la page de mes cours d'enseignement. J'interviens Ã  distance et Ã
       <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
     {% endfor %}
   </ul>
+ 
+### Programmations 
+  <ul class="posts">
+    {% for post in site.categories.programmation %}
+      <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+  </ul>
