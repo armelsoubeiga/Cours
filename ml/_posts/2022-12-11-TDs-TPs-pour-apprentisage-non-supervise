@@ -1,0 +1,14 @@
+---
+layout: post
+title:  "Apprentissage non-supervise : TDs et TPs"
+date:   12/2022
+---
+
+{% include toc.md %}
+
+<br/>
+
+### **TP#1 : TP1 Pratique au Clustering**
+### **TP#2 : TP2 Pratique au Clustering**
+### **TP#3 : TP3 ACP**
+### **TP#4 : TP4 tsne**
