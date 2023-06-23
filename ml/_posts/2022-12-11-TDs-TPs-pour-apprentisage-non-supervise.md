@@ -27,9 +27,12 @@ Disponible pour les étudiants des formation :
  - [cah-python-1.ipynb](https://github.com/armelsoubeiga/Cours/blob/master/Apprentissage%20non%20supervise/cah-python-1.ipynb)
  - [cah-python-2.ipynb](https://github.com/armelsoubeiga/Cours/blob/master/Apprentissage%20non%20supervise/cah-python-2.ipynb)
 
-#### [kmeans](https://github.com/armelsoubeiga/Cours/blob/master/Apprentissage%20non%20supervise/kmeans-python.ipynb)
+#### kmeans
+- [kmeans](https://github.com/armelsoubeiga/Cours/blob/master/Apprentissage%20non%20supervise/kmeans-python.ipynb)
 
-#### [DBSCAN (density-based spatial clustering of applications with noise)](https://github.com/armelsoubeiga/Cours/blob/master/Apprentissage%20non%20supervise/dbscan-python.ipynb)
+#### DBSCAN (density-based spatial clustering of applications with noise)
+- [DBSCAN (density-based spatial clustering of applications with noise)](https://github.com/armelsoubeiga/Cours/blob/master/Apprentissage%20non%20supervise/dbscan-python.ipynb)
+
 
 
 
