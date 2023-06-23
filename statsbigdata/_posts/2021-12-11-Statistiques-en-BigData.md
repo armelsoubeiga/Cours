@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Statistiques et Probabilités"
+title:  "Statistique en Grandes dimensions"
 date:   12/2021
 ---
 
