@@ -50,7 +50,7 @@ Bienvenue sur la page de mes cours d'enseignement. J'interviens à distance et �
 
 ### Système d'Information et bases de données 
   <ul class="posts">
-    {% for post in site.categories.programmation %}
+    {% for post in site.categories.systeminfo %}
       <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
     {% endfor %}
   </ul>
