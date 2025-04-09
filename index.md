@@ -47,3 +47,10 @@ Bienvenue sur la page de mes cours d'enseignement. J'interviens à distance et �
       <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
     {% endfor %}
   </ul>
+
+### Système d'Information et bases de données 
+  <ul class="posts">
+    {% for post in site.categories.programmation %}
+      <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+  </ul>
