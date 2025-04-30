@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Statistiques et Probabilités"
+title:  "UVB - Master FD&IA - 2021"
 categories: statsproba statistics
 ---
 
