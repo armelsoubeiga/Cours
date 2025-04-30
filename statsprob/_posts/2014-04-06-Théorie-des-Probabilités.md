@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  "Théorie des Probabilités"
-title: "Statistiques et Probabilités"
 date: 2021-02-01
 formation: "UNB - Master Data Science - ESI"
 year: 2021
