@@ -4,7 +4,6 @@ title: "Théorie des Probabilités"
 categories: statsprob
 ---
 
-<h3>Promotions</h3>
 <ul>
   {% for post in site.categories.statsprob %}
     {% assign has_promo = false %}
