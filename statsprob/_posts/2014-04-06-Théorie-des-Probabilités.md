@@ -1,13 +1,23 @@
 ---
 layout: post
-title:  "Théorie des Probabilités"
-date: 2021-02-01
-formation: "UNB - Master Data Science - ESI"
-year: 2021
-category: "theoryofprobability"
+title: "Théorie des Probabilités"
+categories: statsprob
 ---
 
-{% include toc.md %}
+<h3>Promotions</h3>
+<ul>
+  {% for post in site.categories.statsprob %}
+    {% assign has_promo = false %}
+    {% for cat in post.categories %}
+      {% if cat contains 'theory' %}
+        {% assign has_promo = true %}
+      {% endif %}
+    {% endfor %}
+    {% if has_promo %}
+      <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
+    {% endif %}
+  {% endfor %}
+</ul>
 
 
 
