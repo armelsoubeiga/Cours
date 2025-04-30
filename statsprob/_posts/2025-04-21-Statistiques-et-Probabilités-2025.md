@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Statistiques et Probabilités"
-categories: statsproba stats
+title:  "UVB - Master FD&IA - 2025"
+categories: statsproba statistics
 ---
 
 {% include toc.md %}
