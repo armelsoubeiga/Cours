@@ -8,7 +8,7 @@ categories: statsprob
   {% for post in site.categories.statsprob %}
     {% assign has_promo = false %}
     {% for cat in post.categories %}
-      {% if cat contains 'stats' %}
+      {% if cat contains 'statistics' %}
         {% assign has_promo = true %}
       {% endif %}
     {% endfor %}
