@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Statistiques et Probabilités"
-date:   12/2021
+categories: statsproba
 ---
 
 {% include toc.md %}
