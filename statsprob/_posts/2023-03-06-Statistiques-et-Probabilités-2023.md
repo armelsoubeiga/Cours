@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Statistiques et Probabilités"
-categories: statsproba
+categories: statsproba stats
 ---
 
 {% include toc.md %}
