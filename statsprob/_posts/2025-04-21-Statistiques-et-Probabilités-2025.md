@@ -6,13 +6,6 @@ categories: statsproba statistics
 
 {% include toc.md %}
 
-#### TP Stats-Proba
-
-[Projet Stats Proba - PDF ](https://github.com/armelsoubeiga/Cours/blob/master/Statistiques%20et%20Probabilit%C3%A9s/projet/projet-Stats-Proba.pdf)
-
-[Data](https://github.com/armelsoubeiga/Cours/tree/master/Statistiques%20et%20Probabilit%C3%A9s/projet/data)
-
-
 #### TD Stats-Proba
 
 ##### TD 1 : Statistique descriptive univariée et bivariées
@@ -25,6 +18,10 @@ categories: statsproba statistics
 
 ##### TD 3 : Analyse multidimensionnelle sous R et Python :  la classification ascendante hiérarchique (CAH) et l'analyse factorielle 
 
-[TD 2 et corrections](https://rpubs.com/soubeiga/td_stats_proba_3)
+[TD 3 et corrections](https://rpubs.com/soubeiga/td_stats_proba_3_2025)
 
 [Data](https://github.com/armelsoubeiga/Cours-2020-2021/tree/master/Statistiques%20et%20Probabilit%C3%A9s)
+
+#### Examen & Projet - Session 1
+
+#### Examen & Projet - Session de rattrapage
