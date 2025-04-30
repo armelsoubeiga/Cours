@@ -6,9 +6,11 @@ Bienvenue sur la page de mes cours d'enseignement. J'interviens à distance et �
 
 
 ### Statistiques et Probabilités
-  <ul >
+  <ul>
     {% for post in site.categories.statsprob %}
-      <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
+      {% if post.categories.size == 1 %}
+        <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
+      {% endif %}
     {% endfor %}
   </ul>
 
