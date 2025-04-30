@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title: "Théorie des Probabilités"
 permalink: /cours/
 ---
